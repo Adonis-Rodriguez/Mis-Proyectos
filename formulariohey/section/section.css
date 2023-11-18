@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .4);
+}
+
+.contenedorprincipal {
+    width: 100%;
+    height: 100vh;
+    background-color: #F08080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divverde {
+    background-color: #43C096;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.fa-arrow-left {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Plan {
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.divimgcohete {
+    text-align: center;
+}
+
+.divimgloading {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.divoscuro {
+    background-color: #2C3E50;
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.divsito {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    color: #fff;
+    margin-bottom: 150px;
+    margin-top: 15px;
+    margin-left: 380px;
+    text-align: center;
+}
+
+.parcornegro {
+    background-color: #566573;
+    width: 50%;
+    padding: 8px 11px;
+    border-radius: 20px 0px 0px 20px;
+    cursor: pointer;
+}
+
+.parcorverde {
+    background-color: #43C096;
+    width: 50%;
+    padding: 8px 11px;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+
+.contenedroadentrooscuro {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+}
+
+.divsitosecunadriodetext {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.signinp2 {
+    color: rgba(255, 255, 255, .7);
+    font-weight: 300;
+}
+
+.or {
+    font-size: 20px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, .9);
+}
+
+.singup2 {
+    color: #fff;
+    margin-left: 10px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #43C096;
+    font-weight: 400;
+}
+
+.fullname {
+    color: #fff;
+    font-weight: 500;
+}
+
+.passvord {
+    color: #fff;
+    font-weight: 500;
+}
+
+.email {
+    color: #fff;
+    font-weight: 500;
+}
+
+[type="text"], [type="password"], [type="email"] {
+    padding: 13px 0px;
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .7);
+    margin-bottom: 30px;
+    outline: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+[type="checkbox"] {
+    cursor: pointer;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: rgba(255, 255, 255, .7);
+}
+
+.divcheckbox {
+    display: flex;
+    flex-direction: row;
+    width: 81%;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.iagree {
+    color:rgba(255, 255, 255, .7) ;
+}
+
+.terms {
+    border-bottom: 2px solid #43C096;
+    color: #fff;
+}
+
+.buttondiv {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+button {
+    padding: 13px 50px;
+    border: none;
+    background-color: #43C096;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.volver {
+    text-decoration: none;
+}
+
+.termsa {
+    text-decoration: none;
+}
+
+.aflecha {
+    text-decoration: none;
+}
+
+.iam {
+    border-bottom: 2px solid #43C096;
+    color: rgba(255, 255, 255, .7);
+    cursor: pointer;
+}
